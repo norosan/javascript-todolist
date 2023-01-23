@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo(js)</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="input-area">
+      <input id="add-text" placeholder="TODOを入力" />
+      <button id="add-button">追加</button>
+    </div>
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
+      <p class="alert">todoリストは5件ま追加できます。</p>
+      <div id="list-wrapper"></div>
+    </div>
+    <div class="complete-area">
+      <p class="title">完了したTODO</p>
+      <div id="complete-list-wrapper"></div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
